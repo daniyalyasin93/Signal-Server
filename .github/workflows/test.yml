@@ -1,9 +1,7 @@
 name: Service CI
 
 on:
-  push:
-    branches-ignore:
-      - gh-pages
+  workflow_dispatch:
 
 jobs:
   build:

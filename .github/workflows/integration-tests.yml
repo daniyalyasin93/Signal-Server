@@ -1,8 +1,6 @@
 name: Integration Tests
 
 on:
-  schedule:
-    - cron: '30 19 * * MON-FRI'
   workflow_dispatch:
 
 jobs:
