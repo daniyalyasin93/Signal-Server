@@ -17,7 +17,7 @@ jobs:
           java-version: '21'
           cache: 'maven'
       - name: Build
-        run: ./mvnw clean compile
+        run: ./mvnw clean install -DskipTests
       - name: Upload artifacts
         uses: actions/upload-artifact@v4
         with:
