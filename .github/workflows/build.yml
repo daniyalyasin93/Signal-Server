@@ -21,4 +21,7 @@ jobs:
       - name: Upload artifacts
         uses: actions/upload-artifact@v4
         with:
-          path: .
+          name: build-and-maven-dependencies
+          path: |
+            .
+            ~/.m2/repository
